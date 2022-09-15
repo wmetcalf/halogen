@@ -91,6 +91,7 @@ def clam_print_rule(self, l):
                 "CL_TYPE_OOXML_WORD",
                 "CL_TYPE_OOXML_XL",
                 "CL_TYPE_OOXML_PPT",
+                "CL_TYPE_ZIP",
                 ]
     for container in container_list:
         ctype = container.split("_")[-1]
